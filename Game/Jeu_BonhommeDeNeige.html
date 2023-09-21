@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="script.js"></script>
+    <title>Le Bonhomme fondu</title>
+</head>
+<body onload="SelectionMot()">
+    <h1 id="Titre">Le Bonhomme fondu :
+   <small>Trouvez le mot caché!</small></h1>
+    <img id="snowman" src="Images/snowman1.png">
+    <div class="Reponse">
+        <span id="Reponse"></span> <br><br>
+        <span id="NbrDeLettres">Le mot contient : </span>
+    </div>
+    <div class="Lettre">
+        <p id="QuelleLettre"><label for="lettre"><strong>Quelle lettre</strong>
+             désirez-vous chercher?</label> <input type="text" id="Saisie" style="width:3%;" maxlength="1" required> 
+            <button id="Chercher" onclick="Recherche()">Chercher</button><br>
+            <span id="Bravo"></span>
+        </p> 
+        <h3>Lettres utilisées :<span id="LettresUtilise"> </span></h3>
+        <button id="NouvellePartie" onclick="Actualiser()">Nouvelle Partie</button>
+    </div>
+    <img id="GameOver">
+    <img id="YouWin">
+    <img src="Images/snow.gif" id="snow">
+</body>
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html
+{
+    background-image: url(Images/backgroundimage.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1
+{
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 55px;
+    font-weight: lighter;
+}
+small
+{
+    font-size: 30px;
+    border-bottom: solid 2px rgba(255, 250, 250, 0.822);
+    color: snow;
+}
+.Reponse
+{
+    position:absolute; top:25%; left:45%;
+    padding: 1%;
+}
+#Reponse
+{
+    font-size: xx-large;
+    font-weight: bold ;
+}
+.Lettre
+{
+    padding: 2%; 
+    margin-right: 100px;
+}
+#QuelleLettre
+{
+    font-size: larger;
+}
+div
+{
+    background-color: rgba(255, 255, 255, 0.384);
+    position:absolute; top:50%; left:45%;
+}
+#snowman
+{
+    position:absolute; top: 35%; left: 15%;
+    transition: 1s transform;
+}
+#snowman:hover {
+    transform: scale(1.4) translateY(-30px);
+}
+.QuelleLettre
+{
+    font-size: x-large;
+}
+button
+{
+    font-family: 'VT323', monospace;
+    font-size: large;
+}
+#Saisie
+{
+    font-size: large;
+}
+#Bravo
+{
+    margin-left: 210px;
+    font-size: xx-large;
+    font-family: 'VT323', monospace;
+}
+#LettresUtilise
+{
+    font-size: 40px;
+    font-family: 'VT323', monospace;
+    font-weight: lighter;
+}
+#GameOver
+{
+    position: absolute;top: 22%; left: 8%;
+    height: 400px;
+    
+}
+#YouWin
+{
+    position: absolute;top: 22%; left: 5%;
+    height: 250px;
+}
+#snow
+{
+    width:50%;
+}
+@keyframes slide {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(8%);
+    }
+}
+@keyframes slide1 {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(5%);
+    }
+}
